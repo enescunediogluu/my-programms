@@ -1,0 +1,30 @@
+sayi1 = int(input("Bir sayı giriniz..:"))
+
+islem = input( "Yapmak istediğiniz işlemi yazınız :")
+
+sayi2 = int(input("Bir sayı giriniz..:"))
+
+
+
+if islem == '+' :
+    sonuc = sayi1 + sayi2
+    print("İşlemin sonucu : "+ str(sonuc))
+
+if islem == '-' :
+    sonuc = sayi1 - sayi2
+    print("İşlemin sonucu : "+ str(sonuc))
+
+if islem == '*' :
+    sonuc = sayi1 * sayi2
+    print("İşlemin sonucu : "+ str(sonuc))
+
+if islem == '/' :
+    sonuc = sayi1 / sayi2
+    print("İşlemin sonucu : "+ str(sonuc))
+
+    
+
+
+
+   
+    
