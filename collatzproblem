@@ -1,0 +1,17 @@
+#collatz problem
+
+
+num1 = int(input("Write a number... : ")) 
+list = []
+
+while num1 != 1 :
+    if num1 % 2 == 0 :
+        (num1) = num1/2
+        list.append(num1)
+        print(list)
+    else :
+        (num1) = num1*3 + 1
+        list.append(num1)
+        print(list)
+
+print("in " + str(len(list)) + " steps")
