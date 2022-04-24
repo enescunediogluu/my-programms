@@ -1,0 +1,17 @@
+import math as m 
+
+n = int(input("Çokgenin kenar sayısını giriniz..: "))
+
+x = m.pi/n
+
+tanx = m.tan(x)
+
+s = int(input("Çokgenin bir kenar uzunluğunu giriniz..: "))
+
+alan = ((s**2*n)/(4*tanx))
+
+print("Çokgenin alanı = " + str(alan))
+
+
+
+
